@@ -1,0 +1,90 @@
+.result {
+    padding-top: 140px;
+    padding-bottom: 91px;
+    text-align: center;
+}
+
+.result .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.result-image {
+    position: absolute;
+    top: 225px;
+    z-index: -1;
+}
+
+.result-title {
+    max-width: 588px;
+    margin-bottom: 60px;
+}
+
+.result-score {
+    background-image: url("../../images/result-image.png");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 388px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 158px;
+    line-height: 190px;
+    color: #FFFFFF;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+.result .container .check-result {
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 165px;
+    text-align: right;
+    /* position: relative; */
+}
+
+.check-result a {
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.check-result a:hover {
+    text-decoration: underline;
+}
+
+.check-result a img {
+    margin-left: 13px;
+}
+
+
+/*.pass-question {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.pass-question a {*/
+/*    font-size: 17px;*/
+/*    line-height: 20px;*/
+/*    color: #6933DC;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.pass-question a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.pass-question a img {*/
+/*    margin-left: 13px;*/
+/*}*/

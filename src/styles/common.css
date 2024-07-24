@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+a {
+    color: #6933DC;
+}
+
+@font-face {
+    src: url("../../fonts/ofont.ru_Museo Sans Cyrl 500.ttf");
+    font-family: "Museo Sans Cyrl";
+}
+
+@font-face {
+    src: url("../../fonts/ofont.ru_Museo Sans Cyrl 700.ttf");
+    font-family: "Museo Sans Cyrl Bold";
+}
+
+.header {
+    padding: 42px 0 40px;
+    border-bottom: 1px solid #DCDCF3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.big-title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+}
+
+.big-title span {
+    color: #6933DC;
+}
+
+.common-title {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333333;
+}
+
+.common-title span {
+    color: #6933DC;
+}
+
+.button {
+    padding: 14px 35px;
+    background: #6933DC;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+}
+
+.button-transparent {
+    background: transparent;
+    color: #6933DC;
+    border: 1px solid #6933DC;
+}
+
+.button-transparent:hover {
+    background: #6933DC;
+    color: white;
+}
+
+.button:hover {
+    background: #32098a;
+}
+
+.button:disabled {
+    background-color: #e2dfe7;
+    cursor: not-allowed;
+}
+
+.button-transparent:disabled {
+    background: transparent;
+    color: #e2dfe7;
+    border: 1px solid #e2dfe7;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #DCDCF3;
+}
